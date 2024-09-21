@@ -1,0 +1,43 @@
+/* .friend_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+ul {
+    list-style: none;
+}
+
+.list {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.listTitle{
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 15px;
+}
+
+.status {
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.online .status {
+    color: green;
+}
+
+.offline .status {
+    color: red;
+}
+
+.name {
+    padding-top: 5px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+}
